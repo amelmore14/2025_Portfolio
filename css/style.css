@@ -11398,7 +11398,8 @@ body {
 }
 
 /* Keep navbar dark with white text */
-.navbar, .navbar .nav-link {
+.navbar,
+.navbar .nav-link {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
@@ -11420,11 +11421,13 @@ section.page-section {
 }
 
 /* Footer stays black with white text */
-footer, .footer {
+footer,
+.footer {
   background-color: #000000 !important;
   color: #ffffff !important;
 }
-footer a, .footer a {
+footer a,
+.footer a {
   color: #ffffff !important;
 }
 
@@ -11437,4 +11440,10 @@ footer a, .footer a {
 #about p,
 #about a {
   color: #000000 !important;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 250px; /* or adjust this height if you want */
+  object-fit: cover;
 }
