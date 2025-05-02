@@ -49,10 +49,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
             <a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a>
@@ -77,6 +77,45 @@
       </p>
     </div>
   </header>
+
+  <!-- About Section-->
+  <section class="page-section bg-primary text-white mb-0" id="about">
+    <div class="container">
+      <!-- About Section Heading-->
+      <h2 class="page-section-heading text-center text-uppercase text-white">
+        About Me
+      </h2>
+      <!-- Icon Divider-->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- About Section Content-->
+      <div class="row">
+        <div class="col-lg-4 ms-auto">
+          <p class="lead">
+            Hi! My name is Allison Elmore, and I am currently a senior at the University of Iowa, where I will earn my bachelor's degree in Business Analytics and Information Systems. After graduation, I plan to travel and find a job. In the fall, I am planning to move to South Carolina!            
+          </p>
+        </div>
+        <div class="col-lg-4 me-auto">
+          <p class="lead">
+            I am currently taking a class called Digital Product Management. In this class I learn about github, html, css, etc. After learning all these skills we learned how to create our own static webpage, which is where you are now! 
+          </p>
+        </div>
+      </div>
+      <!-- About Section Button-->
+      <div class="text-center mt-4">
+        <a
+          class="btn btn-xl btn-outline-light"
+          href="resume.pdf"
+        >
+          <i class="fas fa-download me-2"></i>
+          Download My Resume!
+        </a>
+      </div>
+    </div>
+  </section> 
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
       <div class="container">
@@ -158,52 +197,15 @@
               </div>
               <img
                 class="img-fluid"
-                src="travel.jpg"
-                alt="Image of airplane"
+                src="tippie.webp"
+                alt="Image of Tippie College of Business"
               />
             </div>
           </div>
     </section>
   </body>
   </html>
-    <!-- About Section-->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <!-- About Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          About
-        </h2>
-        <!-- Icon Divider-->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-          <div class="divider-custom-line"></div>
-        </div>
-        <!-- About Section Content-->
-        <div class="row">
-          <div class="col-lg-4 ms-auto">
-            <p class="lead">
-              Hi! My name is Allison Elmore, and I am currently a senior at the University of Iowa, where I will earn my bachelor's degree in Business Analytics and Information Systems. After graduation, I plan to travel and find a job. In the fall, I am planning to move to South Carolina!            
-            </p>
-          </div>
-          <div class="col-lg-4 me-auto">
-            <p class="lead">
-              I am currently taking a class called Digital Product Management. In this class I learn about github, html, css, etc. After learning all these skills we learned how to create our own static webpage, which is where you are now! 
-            </p>
-          </div>
-        </div>
-        <!-- About Section Button-->
-        <div class="text-center mt-4">
-          <a
-            class="btn btn-xl btn-outline-light"
-            href="resume.pdf"
-          >
-            <i class="fas fa-download me-2"></i>
-            Download My Resume!
-          </a>
-        </div>
-      </div>
-    </section>
+
     <!-- Contact Section-->
     <section class="page-section" id="contact">
       <div class="container">
@@ -332,174 +334,173 @@
         </div>
       </div>
     </div>
-    <!-- Portfolio Modal 2-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal2"
-      tabindex="-1"
-      aria-labelledby="portfolioModal2"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Work
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="UIHC.jpg"
-                    alt="UIHC Logo"
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    I currently work at UIHC (University of Iowa Health Care) as a Student Assistant on the Health Care Strategy Team. My employment will end at the conclusion of the school year, so I am actively seeking new opportunities.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-              <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Freelancer - Start Bootstrap Theme</title>
-    <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script
-      src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/style.css" rel="stylesheet" />
-
-    <link rel="stylesheet" href="cookie-popup.css" />
-
-  </head>
-  <body id="page-top">
-    <!-- Navigation-->
-    <nav
-      class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-      id="mainNav"
-    >
+<!-- Portfolio Modal 2-->
+<div
+class="portfolio-modal modal fade"
+id="portfolioModal2"
+tabindex="-1"
+aria-labelledby="portfolioModal2"
+aria-hidden="true"
+>
+<div class="modal-dialog modal-xl">
+  <div class="modal-content">
+    <div class="modal-header border-0">
+      <button
+        class="btn-close"
+        type="button"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body text-center pb-5">
       <div class="container">
-        <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-       </button>
-                </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Portfolio Modal - Title-->
+            <h2
+              class="portfolio-modal-title text-secondary text-uppercase mb-0"
+            >
+              Work
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
               </div>
+              <div class="divider-custom-line"></div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Modal 3-->
-    <div
-      class="portfolio-modal modal fade"
-      id="portfolioModal3"
-      tabindex="-1"
-      aria-labelledby="portfolioModal3"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-xl">
-        <div class="modal-content">
-          <div class="modal-header border-0">
-            <button
-              class="btn-close"
-              type="button"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center pb-5">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-8">
-                  <!-- Portfolio Modal - Title-->
-                  <h2
-                    class="portfolio-modal-title text-secondary text-uppercase mb-0"
-                  >
-                    Travel
-                  </h2>
-                  <!-- Icon Divider-->
-                  <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon">
-                      <i class="fas fa-star"></i>
-                    </div>
-                    <div class="divider-custom-line"></div>
-                  </div>
-                  <!-- Portfolio Modal - Image-->
-                  <img
-                    class="img-fluid rounded mb-5"
-                    src="travel.jpg"
-                    alt="Image of airplane"
-                  />
-                  <!-- Portfolio Modal - Text-->
-                  <p class="mb-4">
-                    Outside of class and work, I love to travel! I've been fortunate enough to visit several countries and explore different places across the United States. My favorite destination so far has been Costa Rica—I had an incredible time with my family, enjoying breathtaking views and experiencing a vibrant new culture.
-                  </p>
-                  <button class="btn btn-primary" data-bs-dismiss="modal">
-                    <i class="fas fa-xmark fa-fw"></i>
-                    Close Window
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+            <!-- Portfolio Modal - Image-->
+            <img
+              class="img-fluid rounded mb-5"
+              src="UIHC.jpg"
+              alt="UIHC Logo"
+            />
+            <!-- Portfolio Modal - Text-->
+            <p class="mb-4">
+              I currently work at UIHC (University of Iowa Health Care) as a Student Assistant on the Health Care Strategy Team. My employment will end at the conclusion of the school year, so I am actively seeking new opportunities.
+            </p>
+            <button class="btn btn-primary" data-bs-dismiss="modal">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta
+name="viewport"
+content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<meta name="description" content="" />
+<meta name="author" content="" />
+<title>Freelancer - Start Bootstrap Theme</title>
+<!-- Favicon-->
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+<!-- Font Awesome icons (free version)-->
+<script
+src="https://use.fontawesome.com/releases/v6.3.0/js/all.js"
+crossorigin="anonymous"
+></script>
+<!-- Google fonts-->
+<link
+href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+rel="stylesheet"
+type="text/css"
+/>
+<link
+href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+rel="stylesheet"
+type="text/css"
+/>
+<!-- Core theme CSS (includes Bootstrap)-->
+<link href="css/style.css" rel="stylesheet" />
 
-    <div id="cookie-popup">
-      <p>
-        By using this site you agree to the storing of cookies on your device to
-        enhance site navigation and to analyze site usage. Learn more about our
-        <a href="/cookie-policy.html">cookie policy</a>.
-      </p>
-      <p>
-        <button id="accept-cookies">Accept</button>
-      </p>
+<link rel="stylesheet" href="cookie-popup.css" />
+
+</head>
+<body id="page-top">
+<!-- Navigation-->
+<nav
+class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+id="mainNav"
+>
+<div class="container">
+  <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+ </button>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+</div>
+<!-- Portfolio Modal 3-->
+<div
+class="portfolio-modal modal fade"
+id="portfolioModal3"
+tabindex="-1"
+aria-labelledby="portfolioModal3"
+aria-hidden="true"
+>
+<div class="modal-dialog modal-xl">
+  <div class="modal-content">
+    <div class="modal-header border-0">
+      <button
+        class="btn-close"
+        type="button"
+        data-bs-dismiss="modal"
+        aria-label="Close"
+      ></button>
+    </div>
+    <div class="modal-body text-center pb-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <!-- Portfolio Modal - Title-->
+            <h2
+              class="portfolio-modal-title text-secondary text-uppercase mb-0"
+            >
+              Tippie College of Business
+            </h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon">
+                <i class="fas fa-star"></i>
+              </div>
+              <div class="divider-custom-line"></div>
+            </div>
+            <!-- Portfolio Modal - Image-->
+            <img
+              class="img-fluid rounded mb-5"
+              src="tippie.webp"
+              alt="Image of Tippie College of Business"
+            />
+            <!-- Portfolio Modal - Text-->
+            <p class="mb-4">
+              During my time at the University of Iowa, Tippie became my home. I spent many days here working hard and taking advantage of the resources available to help us succeed. Through my classes, I completed numerous projects that reflected real-world situations and helped prepare me for my future.                  </p>
+            <button class="btn btn-primary" data-bs-dismiss="modal">
+              <i class="fas fa-xmark fa-fw"></i>
+              Close Window
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div id="cookie-popup">
+<p>
+  By using this site you agree to the storing of cookies on your device to
+  enhance site navigation and to analyze site usage. Learn more about our
+  <a href="cookie-policy.html">cookie policy</a>.
+</p>
+<p>
+  <button id="accept-cookies">Accept</button>
+</p>
+</div>
 
 
     <!-- Bootstrap core JS-->
