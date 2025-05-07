@@ -33,8 +33,6 @@ Visit the portfolio here: [https://allisonelmore.me](https://allisonelmore.me)
 - Hosting via GitHub Pages / custom domain
 
 ## File Structure
-
-```text
 .
 ├── index.html               # Main HTML file
 ├── css/
