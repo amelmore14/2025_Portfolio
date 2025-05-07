@@ -33,28 +33,21 @@ Visit the portfolio here: [https://allisonelmore.me](https://allisonelmore.me)
 - Hosting via GitHub Pages / custom domain
 
 ## File Structure
-.
-├── index.html               # Main HTML file
-├── css/
-│   └── style.css            # Custom styles
-├── js/
-│   └── scripts.js           # Bootstrap & custom JS
-├── resume.pdf               # Downloadable resume
-├── favicon, icons           # Site branding assets
-├── images/
-│   ├── headshot1.webp       # Profile image
-│   ├── UIowa_Capital.jpg    # Portfolio image
-│   ├── UIHC.jpg             # Work image
-│   └── tippie.webp          # Education image
-├── cookie-popup.js          # Cookie policy script
-├── cookie-policy.html       # Cookie policy page
-├── terms.html               # Terms and conditions
-└── privacy.policy.html      # Privacy policy
 
-## How to run locally
-1. Clone the repositiory
-  git clone https://github.com/amelmore14/portfolio.git
-  cd portfolio
+- `index.html` – Main HTML file
+- `css/style.css` – Custom styles
+- `js/scripts.js` – Bootstrap and custom JavaScript
+- `resume.pdf` – Downloadable resume
+- Favicon and icon files – Site branding assets
+- `images/`
+  - `headshot1.webp` – Profile image
+  - `UIowa_Capital.jpg` – Portfolio image
+  - `UIHC.jpg` – Work experience image
+  - `tippie.webp` – Tippie College image
+- `cookie-popup.js` – Cookie policy script
+- `cookie-policy.html` – Cookie policy page
+- `terms.html` – Terms and conditions
+- `privacy.policy.html` – Privacy policy
 
 ## Future Improvements
 Add a blog or updates section
